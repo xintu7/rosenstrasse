@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="198px" height="342px" viewBox="0 0 198 342" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 1 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="10" y="36" width="198" height="342"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Scenarios-card----Complicity" sketch:type="MSLayerGroup" transform="translate(-832.000000, -475.000000)">
+            <g id="Front-"></g>
+        </g>
+        <g id="Scenarios-card--Act-2---updates" sketch:type="MSLayerGroup" transform="translate(-282.000000, -36.000000)">
+            <g id="Front-" transform="translate(272.000000, 0.000000)">
+                <rect id="Rectangle-1" fill="#EBE5C7" sketch:type="MSShapeGroup" x="10" y="36" width="198" height="342"></rect>
+                <g id="Rectangle-1-Copy-2">
+                    <use fill="#7A6784" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                    <use fill-opacity="0.2" fill="none" xlink:href="#path-1"></use>
+                </g>
+                <path d="M22.5326561,206.5 C22.5326561,157.198236 20.2124499,56.9990663 20.2124499,56.9990663 C20.1131525,52.581304 23.619194,49 28.0257571,49 L164.395937,49 L192.035081,49 C196.45202,49 199.921639,52.5792794 199.787239,56.9929263 C199.787239,56.9929263 196.532656,159.863592 196.532656,211.564309 C196.532656,259.461519 199.772447,356.004981 199.772447,356.004981 C199.916156,360.420508 196.457346,364 192.036778,364 L28.0285346,364 C23.6125328,364 20.1147685,360.414397 20.2139593,356.000342 C20.2139593,356.000342 22.5326561,256.796162 22.5326561,206.5 Z" id="Rectangle-5" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <text id="You-and-Max-have-bee" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="11" font-weight="normal" fill="#000000">
+                    <tspan x="30" y="68">You and Max have been trying, but </tspan>
+                    <tspan x="30" y="82.95">you still have no children. If only you </tspan>
+                    <tspan x="30" y="97.9">had a little girl with Max’s laugh, or </tspan>
+                    <tspan x="30" y="112.85">his smile, or his musical ability! Max </tspan>
+                    <tspan x="30" y="127.8">seems so worried about his brother </tspan>
+                    <tspan x="30" y="142.75">Mendel, who went to prison. His </tspan>
+                    <tspan x="30" y="157.7">brother Taub is about to leave the </tspan>
+                    <tspan x="30" y="172.65">country with his whole family. If </tspan>
+                    <tspan x="30" y="187.6">only you could afford it, you would </tspan>
+                    <tspan x="30" y="202.55">take Max and Minna along.</tspan>
+                    <tspan x="30" y="218.5"></tspan>
+                    <tspan x="30" y="234.45"></tspan>
+                    <tspan x="30" y="250.4"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

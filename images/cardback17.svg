@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="198px" height="342px" viewBox="0 0 198 342" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="9" y="35" width="198" height="342"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Scenarios-card----Complicity" sketch:type="MSLayerGroup" transform="translate(-559.000000, -475.000000)">
+            <g id="Front-"></g>
+        </g>
+        <g id="Scenarios-card--Act-2---updates" sketch:type="MSLayerGroup" transform="translate(-9.000000, -36.000000)">
+            <g id="back-" transform="translate(0.000000, 1.000000)">
+                <g id="Rectangle-1">
+                    <use fill="#7A6784" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                    <use fill-opacity="0.2" fill="none" xlink:href="#path-1"></use>
+                </g>
+                <text id="UPDATE" stroke="#FFFFFF" sketch:type="MSTextLayer" transform="translate(65.500000, 243.392136) rotate(45.000000) translate(-65.500000, -243.392136) " font-family="Superclarendon" font-size="24" font-weight="normal" line-spacing="30" fill="#FFFFFF">
+                    <tspan x="9" y="251.892136">UPDATE</tspan>
+                </text>
+                <path d="M61.7343966,142.484943 C61.7343966,138.066822 65.3128182,134.485227 69.7341123,134.485227 L159.017224,134.485227 C163.435345,134.485227 164.479567,137.0226 161.356493,140.145674 L67.3948433,234.107323 C64.2686649,237.233502 61.7343966,236.189349 61.7343966,231.768054 L61.7343966,142.484943 Z" id="Rectangle-23" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(112.445211, 185.197158) rotate(-315.000000) translate(-112.445211, -185.197158) "></path>
+                <path d="M62.7343966,153.484943 C62.7343966,149.066822 66.3128182,145.485227 70.7341123,145.485227 L160.017224,145.485227 C164.435345,145.485227 165.479567,148.0226 162.356493,151.145674 L68.3948433,245.107323 C65.2686649,248.233502 62.7343966,247.189349 62.7343966,242.768054 L62.7343966,153.484943 Z" id="Rectangle-23-Copy-2" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(113.445211, 196.197158) rotate(-135.000000) translate(-113.445211, -196.197158) "></path>
+                <rect id="Rectangle-23-Copy" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(86.825902, 109.480447) rotate(-315.000000) translate(-86.825902, -109.480447) " x="72.4533188" y="95.1078644" width="28.745166" height="28.745166" rx="8"></rect>
+                <g id="Group-+-Group-Copy-5" transform="translate(74.000000, 129.480447)" fill="#E5DEE9" sketch:type="MSShapeGroup">
+                    <g id="Group" transform="translate(38.325902, 29.881540) rotate(-180.000000) translate(-38.325902, -29.881540) translate(0.825902, 0.381540)">
+                        <path d="M70.8840361,0.881540287 L70.8840361,12.7092784 L4.02259229,12.7092784 L4.02259036,0.881540542 L70.8840361,0.881540287 Z" id="Rectangle-441"></path>
+                        <path d="M5.09036145,8.5742268 L69.8162651,8.5742268 L74.8162651,33.6804124 L0.0903614458,33.6804124 L5.09036145,8.5742268 Z" id="Rectangle-501" transform="translate(37.453313, 21.127320) rotate(-180.000000) translate(-37.453313, -21.127320) "></path>
+                        <rect id="Rectangle-503" transform="translate(63.003012, 36.518041) rotate(-180.000000) translate(-63.003012, -36.518041) " x="61.8674699" y="33.6804124" width="2.27108434" height="5.67525773"></rect>
+                        <rect id="Rectangle-503-Copy" transform="translate(57.325301, 36.518041) rotate(-180.000000) translate(-57.325301, -36.518041) " x="56.189759" y="33.6804124" width="2.27108434" height="5.67525773"></rect>
+                        <rect id="Rectangle-503-Copy-3" transform="translate(18.716867, 36.518041) rotate(-180.000000) translate(-18.716867, -36.518041) " x="17.5813253" y="33.6804124" width="2.27108434" height="5.67525773"></rect>
+                        <rect id="Rectangle-503-Copy-2" transform="translate(13.039157, 36.518041) rotate(-180.000000) translate(-13.039157, -36.518041) " x="11.9036145" y="33.6804124" width="2.27108434" height="5.67525773"></rect>
+                        <path d="M25.5301205,39.2889175 L38.5888554,18.5742268 L51.6475904,39.2889175 L51.6475904,58.8685567 L25.5301205,58.8685567 L25.5301205,39.2889175 Z" id="Rectangle-503-Copy-4" transform="translate(38.588855, 38.721392) rotate(-180.000000) translate(-38.588855, -38.721392) "></path>
+                    </g>
+                    <g id="Group-Copy-5" transform="translate(0.825902, 63.381540)">
+                        <path d="M70.8840361,0.881540287 L70.8840361,12.7092784 L4.02259229,12.7092784 L4.02259036,0.881540542 L70.8840361,0.881540287 Z" id="Rectangle-441"></path>
+                        <path d="M5.09036145,8.5742268 L69.8162651,8.5742268 L74.8162651,33.6804124 L0.0903614458,33.6804124 L5.09036145,8.5742268 Z" id="Rectangle-501" transform="translate(37.453313, 21.127320) rotate(-180.000000) translate(-37.453313, -21.127320) "></path>
+                        <rect id="Rectangle-503" transform="translate(63.003012, 36.518041) rotate(-180.000000) translate(-63.003012, -36.518041) " x="61.8674699" y="33.6804124" width="2.27108434" height="5.67525773"></rect>
+                        <rect id="Rectangle-503-Copy" transform="translate(57.325301, 36.518041) rotate(-180.000000) translate(-57.325301, -36.518041) " x="56.189759" y="33.6804124" width="2.27108434" height="5.67525773"></rect>
+                        <rect id="Rectangle-503-Copy-3" transform="translate(18.716867, 36.518041) rotate(-180.000000) translate(-18.716867, -36.518041) " x="17.5813253" y="33.6804124" width="2.27108434" height="5.67525773"></rect>
+                        <rect id="Rectangle-503-Copy-2" transform="translate(13.039157, 36.518041) rotate(-180.000000) translate(-13.039157, -36.518041) " x="11.9036145" y="33.6804124" width="2.27108434" height="5.67525773"></rect>
+                        <path d="M25.5301205,39.2889175 L38.5888554,18.5742268 L51.6475904,39.2889175 L51.6475904,58.8685567 L25.5301205,58.8685567 L25.5301205,39.2889175 Z" id="Rectangle-503-Copy-4" transform="translate(38.588855, 38.721392) rotate(-180.000000) translate(-38.588855, -38.721392) "></path>
+                    </g>
+                </g>
+                <text id="{-Anneliese-}" sketch:type="MSTextLayer" font-family="Baskerville" font-size="12" font-weight="normal" fill="#73578F">
+                    <tspan x="79.3259018" y="207.480447">{ Anneliese }</tspan>
+                </text>
+                <g id="Act-1" transform="translate(83.325902, 163.000000)" font-weight="normal" font-family="Superclarendon" letter-spacing="1.10000002" sketch:type="MSTextLayer" font-size="13" sketch:alignment="middle" fill="#75637E">
+                    <text id="ACT-II-">
+                        <tspan x="2.55299993" y="13">ACT II</tspan>
+                        <tspan x="56.4470001" y="13"> </tspan>
+                    </text>
+                </g>
+                <text id="17" sketch:type="MSTextLayer" font-family="Menlo" font-size="13" font-weight="normal" sketch:alignment="middle" fill="#081660">
+                    <tspan x="79.4992417" y="114.480447">17</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

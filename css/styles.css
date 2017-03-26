@@ -1,0 +1,226 @@
+
+html{
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Baskerville', serif;
+    height: 100%;
+    margin: 0;
+	background: radial-gradient(white, lightgrey);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+/** HEADER **/
+
+
+
+#header-nav {
+  background-color: transparent;
+  border-radius: 0;
+  border: 0;    
+}
+
+
+.sm-header {
+    text-align: center;
+    font-family: 'Baskerville', serif;
+    font-size: 4vw;
+    padding-top:12px;
+    padding-left: 55px;
+}
+
+#nav-list {
+  margin-top: 30px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+
+.header-images{
+    height:22px;
+}
+
+.header-images img{
+    position: absolute;
+    left:50%;
+    margin-left: -17px;
+    bottom: 34px;
+}
+.nav-line{
+    z-index: 100000;
+    position: absolute;
+    top: 82px;
+    height: 1px;
+    width:100%;
+    background: #000;
+}
+
+.navbar-custom li{
+    float: left;
+    width: 14.2%;
+}
+
+.container {
+    position: relative;
+}
+
+#cards {
+    padding: auto;
+}
+
+.left-button {
+    width:2%;
+    position:absolute;
+    bottom:0px;
+    left: -16px;
+}
+
+.right-button {
+    width:2%;
+    position:absolute;
+    bottom: 0px;
+    right: -16px;
+}
+
+#cards img{
+    width: 100%;
+}
+
+
+.main-container {
+    position: absolute;
+}
+
+
+.card-instr {
+    padding: 10px;
+    background-color: lightgray;
+}
+
+p {
+    font-family: 'gill sans', sans-serif;
+    font-size: 1.4rem;
+}
+
+footer {
+    position: relative;
+    margin-top: 20px;
+}
+
+.text {
+    font-size: 2.5vw;
+    text-align: center;
+    padding: none;
+    
+}
+
+.foot-line{
+    position:absolute;
+    margin-top: 15px;
+    height: 1px;
+    width: 100%;
+    clear: both;
+    float: left;
+    background: black;
+
+}
+
+#footer-logo img{
+    width:30%;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 26px;
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1899px) {
+  /* Header */
+  /* End Header */
+    .sm-header {
+        display: none;
+        }
+
+      /* Home Page */
+    #footer-logo img{
+        display: none;
+    }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+    .sm-header {
+        display: none;
+        }
+      /* End Home Page */
+
+
+    #footer-logo img{
+        display: none;
+        }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+
+  .header-images{
+    display: none;
+  }
+    
+  .navbar-custom li{
+    float:none;
+    width: 100%;
+  }
+
+  .nav-line{
+    display: none;
+    }
+
+    .left-button {
+    width:2%;
+    position:absolute;
+    bottom:-27px;
+    left: 17px;
+    }
+    
+    .right-button {
+    width:2%;
+    position:absolute;
+    bottom:-27px;
+    right: 17px;
+    }
+    
+    
+    .card-instr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    
+  
+    
+    .text {
+        display: none;
+    }
+
+    .foot-line{
+        display: none;
+    }
+    
+}
+
+
+
+********* Super extra small******
+@media (max-width: 479px) {
+
+  
+}
+
+
