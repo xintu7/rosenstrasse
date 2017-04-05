@@ -10,3 +10,9 @@ $(function(){
     });
 });
 
+windows.onresize=resizeImage;
+
+function resizeImage{
+    document.getElementById('card-explain').style.height=document.querySelector('card-front').offsetHeight-querySelector('card-instr').offsetHeight+'px';
+    }
+
