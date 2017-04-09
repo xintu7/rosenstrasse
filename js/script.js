@@ -10,9 +10,26 @@ $(function(){
     });
 });
 
-windows.onresize=resizeImage;
-
-function resizeImage{
-    document.getElementById('card-explain').style.height=document.querySelector('card-front').offsetHeight-querySelector('card-instr').offsetHeight+'px';
+$(function () {
+    $("#navbarToggle").blur(function (event) {
+    var screenWidth = window.innerWidth;
+    if (screenWidth < 768) {
+      $("#collapsable-nav").collapse('hide');
     }
+  });
+  $("#navbarToggle").click(function (event) {
+    $(event.target).focus();
+  });
+});
+
+
+$(window).resize(function(){
+    if( $(window).width() > 767){
+        var height = $("#card-front").height() - $("#card-instr").height() - 20
+        $('#card-explain').height(height);
+    }
+})
+$(window).resize();
+
+
 

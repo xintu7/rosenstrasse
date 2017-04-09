@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-    color:inherit;
+    color:none;
 
     text-decoration: none;
 }
@@ -140,20 +140,20 @@ div#main-mobile img{
 .left-button {
     width:2%;
     position:absolute;
-    bottom:0px;
+    bottom:200px;
     left: -16px;
 }
 
 .right-button {
     width:2%;
     position:absolute;
-    bottom: 0px;
-    right: -16px;
+    bottom: 200px;
+    right: -2%;
 }
 
 
 #cards img{
-    max-height: 450px;
+/*    max-height: 450px;*/
     width: 100%;
 }
 
@@ -163,17 +163,11 @@ div#main-mobile img{
 }
 
 
-.card-instr {
+#card-instr {
     padding: 10px;
     background-color: lightgray;
 }
 
-.card-explain {
-    overflow: scroll;
-    overflow-x: hidden;
-    height: 220px;
-    overflow-y: auto;
-}
 
 
 
@@ -187,6 +181,65 @@ p {
     font-family: 'gill sans', sans-serif;
     font-size: 1.4rem;
 }
+
+
+/**scroll**/
+
+.icon a {
+	position: relative;
+	bottom: 15px;
+	left: 50%;
+	z-index: 2;
+	display: inline-block;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	transition: opacity .3s;
+}
+
+.icon a:hover {
+	opacity: .5;
+}
+
+
+#scrolldown a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 12px;
+	height: 12px;
+	margin-left: -12px;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-animation: sdb04 1.7s infinite;
+	animation: sdb04 1.7s infinite;
+	box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb04 {
+	0% {
+		-webkit-transform: rotate(-45deg) translate(0, 0);
+	}
+	20% {
+		-webkit-transform: rotate(-45deg) translate(-5px, 5px);
+	}
+	40% {
+		-webkit-transform: rotate(-45deg) translate(0, 0);
+	}
+}
+@keyframes sdb04 {
+	0% {
+		transform: rotate(-45deg) translate(0, 0);
+	}
+	20% {
+		transform: rotate(-45deg) translate(-5px, 5px);
+	}
+	40% {
+		transform: rotate(-45deg) translate(0, 0);
+	}
+}
+
 
 footer {
     position: relative;
@@ -223,8 +276,41 @@ a:hover text{
     bottom: 26px;
 }
 
+/********** Large devices only **********/
 
+@media (min-width: 993px)  { 
+    
+    h{
+        font-size: 1.7rem;
+    }
+    
+    p{
+        font-size: 1.7rem;
+    }
+    
+    .sm-header {
+        display: none;
+        }
+    
+    div#workshop{
+    min-height: 370px;
+}
+    
+    #card-explain {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 260px;
+    overflow-y: auto;
+}
 
+      /* Home Page */
+    #footer-logo img{
+        display: none;
+    }
+    div#mobile-img {
+        display: none;
+    } 
+}
 
 /********** Medium devices only **********/
 @media (min-width: 992px)  {
@@ -246,6 +332,13 @@ a:hover text{
     min-height: 370px;
 }
 
+    #card-explain {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 220px;
+    overflow-y: auto;
+}
+
       /* Home Page */
     #footer-logo img{
         display: none;
@@ -265,7 +358,15 @@ a:hover text{
     
     div#workshop{
     min-height: 370px;
-}
+    }
+    
+    #card-explain {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 220px;
+    overflow-y: auto;
+    }
+
 
     #footer-logo img{
         display: none;
@@ -327,21 +428,25 @@ a:hover text{
     .left-button {
     width:2%;
     position:absolute;
-    bottom:-27px;
+    bottom:-60px;
     left: 17px;
     }
     
     .right-button {
     width:2%;
     position:absolute;
-    bottom:-27px;
+    bottom:-60px;
     right: 17px;
     }
     
     
-    .card-instr {
+    #card-instr {
     margin-top: 10px;
     margin-bottom: 10px;
+    }
+    
+    #scrolldown {
+        display:none;
     }
     
     /**workshop**/
@@ -356,6 +461,10 @@ a:hover text{
 
     .foot-line{
         display: none;
+    }
+    
+    #footer-logo img{
+        bottom:5px;
     }
     
 }
@@ -412,23 +521,30 @@ a:hover text{
     .left-button {
     width:2%;
     position:absolute;
-    bottom:-27px;
+    bottom:-50px;
     left: 17px;
     }
     
     .right-button {
     width:2%;
     position:absolute;
-    bottom:-27px;
+    bottom:-50px;
     right: 17px;
     }
     
     
-    .card-instr {
+    #card-instr {
     margin-top: 10px;
     margin-bottom: 10px;
     }
     
+    #scrolldown {
+    display:none;
+    }
+    
+    #footer-logo img{
+    bottom:5px;
+    }
   
     
     .text {
