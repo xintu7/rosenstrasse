@@ -48,9 +48,9 @@ $(function () {
 //    });
 //}
 $(document).ready(function() {
-        if(!window.location.hash) {
-            window.location = window.location + '#loaded';
-            window.location.reload();
+        if (document.readyState == 'complete')
+            doOnLoad();
+    $(window).bind("load", doOnLoad);
         }else{
             if( $(window).width() > 767){
         var height = $("#card-front").height() - $("#card-instr").height() - 20
