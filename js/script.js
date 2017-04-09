@@ -49,8 +49,8 @@ $(function () {
 //}
 $(document).ready(function() {
     $("#card-explain").load(function() {
-        var height = $("#card-front").height() - $("#card-instr").height() - 20
-        $('#card-explain').height(height);
+        var h = $(this).contents().find("#card-front").height() - $(this).contents().find("#card-instr").height() - 20
+        $(this).height(h);
 //             var h = $(this).contents().find("ul.jq-text").height();
 //             h += $(this).contents().find("#form1").height();
 //             $(this).height( h );
