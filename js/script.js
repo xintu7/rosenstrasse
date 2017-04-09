@@ -22,14 +22,25 @@ $(function () {
   });
 });
 
-
-$(window).resize(function(){
+$(document).ready( function() { //Fires when DOM is loaded
     if( $(window).width() > 767){
         var height = $("#card-front").height() - $("#card-instr").height() - 20
         $('#card-explain').height(height);
     }
-})
-$(window).resize();
+    $(window).resize(function() { //Fires when window is resized
+     if( $(window).width() > 767){
+        var height = $("#card-front").height() - $("#card-instr").height() - 20
+        $('#card-explain').height(height);
+    }
+    });$(window).resize();
+});
+//$(window).resize(function(){
+//    if( $(window).width() > 767){
+//        var height = $("#card-front").height() - $("#card-instr").height() - 20
+//        $('#card-explain').height(height);
+//    }
+//})
+//$(window).resize();
 
 
 
