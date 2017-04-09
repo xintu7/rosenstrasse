@@ -52,12 +52,12 @@ $(function () {
 //     $(window).bind("load", doOnLoad);
 
 
-$(document).ready(function() {
-    if( $(window).width() > 767){
-    var height = $("#card-front").height() - $("#card-instr").height() - 20
-    $('#card-explain').height(height);
-    }
-});
+// $(document).ready(function() {
+//     if( $(window).width() > 767){
+//     var height = $("#card-front").height() - $("#card-instr").height() - 20
+//     $('#card-explain').height(height);
+//     }
+// });
 
 
 $(window).resize(function(){
