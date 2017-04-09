@@ -47,7 +47,7 @@ $(function () {
 //        console.log( $this.height() );
 //    });
 //}
-$(document).ready(function() {
+$(document).onload(function() {
     $("#card-explain").load(function() {
         var h = $(this).contents().find("#card-front").height() - $(this).contents().find("#card-instr").height() - 20
         $(this).height(h);
