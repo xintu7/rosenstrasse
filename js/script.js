@@ -35,12 +35,12 @@ $(function () {
 //    });$(window).resize();
 //});
 
-$(document).ready( function() { //Fires when DOM is loaded
-    getImageSizes();
-    $(window).resize(function() { //Fires when window is resized
-        getImageSizes();
-    });
-});
+// $(document).ready( function() { //Fires when DOM is loaded
+//     getImageSizes();
+//     $(window).resize(function() { //Fires when window is resized
+//         getImageSizes();
+//     });
+// });
 //function getImageSizes() {
 //    $(".exh img").each(function() {
 //        var $this = $(this);
