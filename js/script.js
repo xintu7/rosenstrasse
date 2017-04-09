@@ -56,6 +56,8 @@ $(document).ready(function() {
 //             $(this).height( h );
         });
 });
+console.log($("#card-front").height() )
+
 $(window).resize(function(){
     if( $(window).width() > 767){
         var height = $("#card-front").height() - $("#card-instr").height() - 20
