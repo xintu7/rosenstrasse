@@ -47,22 +47,16 @@ $(function () {
 //        console.log( $this.height() );
 //    });
 //}
-if (document.readyState == 'complete')
-            doOnLoad();
-    $(window).bind("load", doOnLoad);
+// if (document.readyState == 'complete')
+//             doOnLoad();
+//     $(window).bind("load", doOnLoad);
 
 
 $(document).ready(function() {
     if( $(window).width() > 767){
     var height = $("#card-front").height() - $("#card-instr").height() - 20
     $('#card-explain').height(height);
-        }
-//     $("#card-explain").load(function() {
-//         var h = $(this).contents().find("#card-front").height() - $(this).contents().find("#card-instr").height() - 20
-//         $(this).height(h);
-// //             var h = $(this).contents().find("ul.jq-text").height();
-// //             h += $(this).contents().find("#form1").height();
-// //             $(this).height( h );
+    }
 });
 
 
