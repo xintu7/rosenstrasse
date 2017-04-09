@@ -22,43 +22,6 @@ $(function () {
   });
 });
 
-//$(document).ready( function() { //Fires when DOM is loaded
-//    if( $(window).width() > 767){
-//        var height = $("#card-front").height() - $("#card-instr").height() - 20
-//        $('#card-explain').height(height);
-//    }
-//    $(window).resize(function() { //Fires when window is resized
-//     if( $(window).width() > 767){
-//        var height = $("#card-front").height() - $("#card-instr").height() - 20
-//        $('#card-explain').height(height);
-//    }
-//    });$(window).resize();
-//});
-
-// $(document).ready( function() { //Fires when DOM is loaded
-//     getImageSizes();
-//     $(window).resize(function() { //Fires when window is resized
-//         getImageSizes();
-//     });
-// });
-//function getImageSizes() {
-//    $(".exh img").each(function() {
-//        var $this = $(this);
-//        console.log( $this.height() );
-//    });
-//}
-// if (document.readyState == 'complete')
-//             doOnLoad();
-//     $(window).bind("load", doOnLoad);
-
-
-// $(document).ready(function() {
-//     if( $(window).width() > 767){
-//     var height = $("#card-front").height() - $("#card-instr").height() - 20
-//     $('#card-explain').height(height);
-//     }
-// });
-
 
 $(window).resize(function(){
     if( $(window).width() > 767){
