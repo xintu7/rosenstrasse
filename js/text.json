@@ -1,4 +1,4 @@
-var text = [
+[
     {"card-instru": "",
     "card-explain": "Give players a moment to reorient themselves, and to integrate insights from the prologue scenes into their initial character concept. Each character sheet describes the character as of 1933, including age, children, and employment. If players have questions that are not answered by the prologue scenes or the character sheet, encourage them to either ask the other player in the relevant dyad, or to find out during play."},
     
@@ -13,4 +13,4 @@ var text = [
     
     {"card-instru": "You will play Oskar, Inge’s brother.",
     "card-explain": "This scene serves two purposes. First, it highlights Kurt’s relationship to Inge’s family and sets a strong pressure on Kurt to succeed. Secondly it allows all the players to feel the rise of the SS to power.<br>How to play Oskar: The SS is a paramilitary organization that is fiercely loyal to Hitler. While it is deeply entrenched in Nazi ideology, remember that it is also made up of regular men. Avoid playing Oskar as a Nazi caricature. Play him as a proud, personally ambitious, confident man working for the betterment of his family and country. In his lifetime, he has witnessed the country’s decline: defeat, military castration, economic depression, and moral decay. He honestly believes that his work in the SS is critical to rebuilding Germany. He likes Kurt as a brother in law, but feels like he is not doing enough for Inge and the children. He would like to see Kurt succeed.<br>Goals: Bond with Kurt while toasting Germany’s great rebirth, and inspire Kurt to identify his place in it that new world."},
-    ]
+]
