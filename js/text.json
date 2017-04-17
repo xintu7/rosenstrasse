@@ -1,22 +1,47 @@
 [
-    {"instr": "",
+    {"instr": "1",
     "explain": "If needed, you can use this as a moment to remind the players about who will be playing with whom. The next four scenes will also reinforce those pairings."},
     
-    {"instr": "Ensure that Max and Annaliese are sitting next to each other. Before reading out the scene text, ask Annaliese to introduce her character, and then ask Max to do the same. Let them ask each other any questions they might have before starting the scene.",
+    {"instr": "2Ensure that Max and Annaliese are sitting next to each other. Before reading out the scene text, ask Annaliese to introduce her character, and then ask Max to do the same. Let them ask each other any questions they might have before starting the scene.",
     "explain": "During this scene, Annaliese and Max are young and hopeful. She is 23, and he is 21. Let the players ask one another questions and work out the core of their relationship. If you are asked for input, guide them toward themes of romance, hope, joy, and beauty."},
     
-     {"instr": "Ensure that Kurt and Inge are sitting next to each other. Before reading out the scene text, ask Inge to introduce her character, and then ask Kurt to do the same. Let them ask each other any questions they might have before starting the scene.",
+     {"instr": "3Ensure that Kurt and Inge are sitting next to each other. Before reading out the scene text, ask Inge to introduce her character, and then ask Kurt to do the same. Let them ask each other any questions they might have before starting the scene.",
     "explain": "During this scene, Kurt and Inge are just old enough to begin considering marriage. She is 19, and he is 21. Let the players ask one another questions and work out the core of their relationship. If you are asked for input, guide them toward themes of honor, diligence, practicality, and foresight."},
 
-    {"instr": "You will play Minna, Max’s mother.",
-    "explain": "This scene provides us a view into a life that is yet untouched by the shadow of the Reich, when young couples only had ordinary young couple problems to deal with. It also aims to establish Max’s family as a tangible presence in both of their lives. Over the course of the ten years of the game most of Max’s family will be murdered, and this scene provides a presence to enable a later sense of loss. <br>How to play Minna: Minna is 60 and widowed early, when Max was quite young. To support her five boys, she sold all her jewelry and opened a small bakery. She’s keenly observant, has a wry sense of humour, and has a knack for taking the universe in stride. She loves Annaliese like a daughter, particularly because they share a love of music. Sometimes she wonders, though, if Annaliese has enough steel in her to face hard times. In moments of intimacy, she may call Annaliese “Chanaleh,” a Yiddishized pet name that signifies Annaliese’s acceptance into her Jewish family.<br>Goals: Use Minna to explore Annaliese’s feelings for Max. Use the new apartment and the promise of future children as a way to forecast a brighter future. Remind Annaliese that her marriage is the foundation of her future life."},
+    {"instr": "4Before reading out the scene, ask Klara to introduce her character, and then ask Josef to do the same. Let them ask each other any questions they might have before starting the scene.",
+    "explain": ""},
     
-    {"instr": ".",
+    {"instr": "5",
     "explain": "This scene contrasts with Annaliese and Max’s celebration. Even as they begin a new life together, Klara and Josef must cope with ominous signs of what is to come. This scene also establishes Klara and Josef as characters who care about scholarship, books, and learning, and who collaborate on important intellectual projects. Finally, this scene allows the players to begin to discover how Josef and Klara will respond to threats and trauma.<br>If Klara and Josef ask you about the content of the book, turn the question around and have them explore it. Doing so will require them to articulate their intellectual commitments and define the nature of their collaborative partnership. <br>Examples:<br>-Klara, what did this book help people understand better about one another? <br>-Josef, what made you choose this book out of all the manuscripts you are sent each year?"},
     
-    {"instr": ".",
+    {"instr": "6",
     "explain": "Care is central to Ruth and Izak’s relationship. He was her rock in childhood, but the changes coming to Germany will turn that tide and require Ruth to be strong for him. The Reich was an era of strong reinvestment into traditional family values. Men were the head of the family, and women, the keeper of hearth, home and family. In their mixed marriages, Ruth will grow protected, Izak will grow vulnerable. This scene begins that process. <br>The goal in this scene is to show the beginning of Izak’s vulnerability and to explore how open he is to let her care for him. If he doesn’t let it be exposed, or doesn’t accept help, then ask questions after the scene that will do it for him.<br>Examples:<br>-Izak, why couldn’t you ask your only sister for help?<br>-Ruth, how did you know that Izak was lying to you?<br>-Ruth, how did you make sure that the children were cared for anyway?"},
     
-    {"instr": "You will play Oskar, Inge’s brother.",
+    {"instr": "7You will play Oskar, Inge’s brother.",
     "explain": "This scene serves two purposes. First, it highlights Kurt’s relationship to Inge’s family and sets a strong pressure on Kurt to succeed. Secondly it allows all the players to feel the rise of the SS to power.<br>How to play Oskar: The SS is a paramilitary organization that is fiercely loyal to Hitler. While it is deeply entrenched in Nazi ideology, remember that it is also made up of regular men. Avoid playing Oskar as a Nazi caricature. Play him as a proud, personally ambitious, confident man working for the betterment of his family and country. In his lifetime, he has witnessed the country’s decline: defeat, military castration, economic depression, and moral decay. He honestly believes that his work in the SS is critical to rebuilding Germany. He likes Kurt as a brother in law, but feels like he is not doing enough for Inge and the children. He would like to see Kurt succeed.<br>Goals: Bond with Kurt while toasting Germany’s great rebirth, and inspire Kurt to identify his place in it that new world."}
+    
+    {"instr": "",
+    "explain": ""}  
+    
+    {"instr": "",
+    "explain": ""}  
+    
+    {"instr": "",
+    "explain": ""}  
+    
+    {"instr": "",
+    "explain": ""}  
+    
+    {"instr": "",
+    "explain": ""}  
+    
+    {"instr": "",
+    "explain": ""}  
+    
+    {"instr": "",
+    "explain": ""}  
+    
+    {"instr": "",
+    "explain": ""}  
+    
 ]
