@@ -143,7 +143,7 @@ div#main-mobile img{
 .left-button {
     width:2%;
     position:absolute;
-    top:0px;
+    top: 0px;
     left: -16px;
 }
 
@@ -377,9 +377,7 @@ a:hover text{
     
     div#mobile-img {
         display: none;
-    }
-    
-    
+    } 
 }
 
 
@@ -559,7 +557,3 @@ a:hover text{
     }
     
 }
-    
-
-
-
