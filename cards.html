@@ -58,7 +58,7 @@
 
       <div id="main-content" class="container">
           <div id="cards" class="row align-items-center">
-              <a href="#"><div class="left-button" id="1" onclick="change(this)">
+              <a href="#"><div class="left-button" name="1" onclick="change(this)">
                 <img src="images/left.svg">
               </div></a>
           <div class="col-12 col-xs-6 col-sm-4 col-ml-3 col-lg-4">
@@ -68,11 +68,10 @@
             <div id="card-front" class="card-front"><img class="front" src="images/cards/r1.png"></div>
               </div>
           <div class="col-12 col-xs-12 col-sm-4 col-ml-6  col-lg-4">
-              <div id="card-instr" class="instr"><p>If Kurt is working as an orderly, skip this scene. (Do not read this card aloud. Discard it immediately and draw the next card.) If this scene is played, you will play first Georg and then Anna.</p></div><div id="card-explain" class="explain"><p>If Kurt and Inge are still married, Inge has a reason to participate in the Rosenstrasse protests, and this scene primarily informs her of the arrests. If they are divorced, however, this scene motivates Inge’s engagement—in order to protect her daughter. If Inge still declines to be involved, the player will have the option of playing Anna in future scenes.<br>How to play Georg: Georg is twenty-one. He has responded to his father’s disgrace by attempting to be the perfect Aryan. He disapproves of his sister’s rebelliousness and sees her political engagement as child- ish. Still, if something bad were to happen to her it would disgrace the entire family.<br>How to play Anna: Anna is nineteen. Ever since Kurt was dismissed from the army, she has become more angry, more political, and more afraid of Kurt being taken from her. If Kurt and Inge are divorced, she has been sneaking out to see her father. She is also resentful of the Kinder, Küche, Kirche (children, kitchen, church) policies of the Reich, which seek to keep women in a subservient role. In this scene,Anna has heard of the mass arrests, and that Berlin is about to be made completely Judenrein (free of Jews). She has also heard that women have started gathering in front of the Rosenstrasse facility, and is trying to join them.Whether Inge is still married to Kurt or not, she is determined to protect him.</p>
-              <b>If this scene results in Anna continuing on to the protest, remember to incorporate her in future scenes.</b></div>
+              <div id="card-instr"><p class="instrp" id="instrp"></p></div><div id="card-explain"><p class="explainp" id="explainp">If needed, you can use this as a moment to remind the players about who will be playing with whom. The next four scenes will also reinforce those pairings.</p></div>
               <div id="scrolldown" class="icon"><a><span></span></a></div>
               </div>
-            <a href="#"><div class="right-button" id="1" onclick="change(this)">
+            <a href="#"><div class="right-button" name="2" onclick="change(this)">
               <img src="images/right.svg">
             </div></a>
           </div>
@@ -91,10 +90,10 @@
      </footer>
 
 
-
       <!-- jQuery (Bootstrap JS plugins depend on it) -->
       <script src="js/jquery-2.1.4.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>   
       <script src="js/script.js"></script>
+        
     </body>
 </html>
