@@ -3,6 +3,8 @@ html{
     height: 100%;
 }
 
+
+
 body {
     font-size: 16px;
     font-family: 'Baskerville', serif;
@@ -24,6 +26,7 @@ a:hover {
 
     text-decoration: none;
 }
+
 
 div#logo-img {
     position: absolute;
@@ -140,14 +143,14 @@ div#main-mobile img{
 .left-button {
     width:2%;
     position:absolute;
-    bottom:200px;
+    top:0px;
     left: -16px;
 }
 
 .right-button {
     width:2%;
     position:absolute;
-    bottom: 200px;
+    top: 0px;
     right: -2%;
 }
 
