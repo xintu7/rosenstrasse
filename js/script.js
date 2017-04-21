@@ -35,7 +35,6 @@ $(window).ready(function(){
     $(window).resize(resizeHandler);
 });
 
-
    //Get text from Json
 let newCardInstr = null;
 let newCardExplain = null;
@@ -44,11 +43,16 @@ $.getJSON("https://api.myjson.com/bins/1hfaan", function (data) {
     newCardExplain = data.map(item => item.explain);
 });
 
+function changeText(cardIndex) {
+  $(".instrp").html(newCardInstr[cardIndex - 1]);  
+  $(".explainp").html(newCardExplain[cardIndex - 1]);  
+    console.log('Changing explanation portion');
+}
 
-function change(card) {
-   
-  //Get the index of the new card you want to display
-  var cardIndex = card.getAttribute("name");
+//- changeAll(), to functions, change()
+//- Grace Guo
+//- 20 April 2017
+function changeAll(cardIndex) {
   //Get the file link to the new left and right images
   var newCardLeft = "images/cards/l"+cardIndex+".png";
   var newCardRight = "images/cards/r"+cardIndex+".png";
@@ -61,10 +65,6 @@ function change(card) {
   //Find the card front image element and change image src
   var cardFront = $(".front");
   cardFront.attr('src', newCardRight);
-    
-  $(".instrp").html(newCardInstr[cardIndex - 1]);  
-  $(".explainp").html(newCardExplain[cardIndex - 1]);  
-    console.log('Changing explanation portion');
 
   //Update the index of the left and right arrows
   var index = parseInt(cardIndex);
@@ -72,4 +72,30 @@ function change(card) {
   var next = index+1;
   $(".left-button").attr('name', prev);
   $(".right-button").attr('name', next);
+}
+
+function toPage(index) {
+
+  $(".workshop").hide();
+  $(".cards").show();
+
+  changeAll(index);
+  changeText(index);
+}
+
+function change(card) {
+  //Get the index of the new card you want to display
+  var cardIndex = card.getAttribute("name");
+  console.log(cardIndex);
+
+  //If this is the first or last card, make no change
+  if (cardIndex === "0") {
+    return;
+  } else if (cardIndex === "90") {
+    return;
+  }
+  
+  changeAll(cardIndex);
+  changeText(cardIndex);
 };
+
