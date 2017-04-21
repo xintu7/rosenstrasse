@@ -27,28 +27,28 @@
                       <a class="active" href="workshop1.html"><div class="header-images"><img src="images/workshop.png"></div><br class="hidden-xs">Workshop</a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a onclick="toPage(1);">
                           <div class="header-images"><img src="images/prologue.png"></div><br class="hidden-xs"> Prologue</a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a onclick="toPage(6)">
                           <div class="header-images"><img src="images/actI.png"></div><br class="hidden-xs"> Act I</a>
                     </li>
-                    <li>
-                      <a href="cards17.html">
+                    <li class="active">
+                      <a onclick="toPage(16)">
                           <div class="header-images"><img src="images/actII.png"></div><br class="hidden-xs"> Act II</a>
                     </li>
                     <li>
-                      <a href="cards69.html">
+                      <a onclick="toPage(43)">
                           <div class="header-images"><img src="images/actIII.png"></div><br class="hidden-xs"> Act III</a>
                     </li>
                         <li>
-                      <a href="#">
+                      <a onclick="toPage(82)">
                           <div class="header-images"><img src="images/Epilogue.png"></div><br class="hidden-xs"> Epilogue</a>
                     </li>
                     <li>
                       <a href="#">
-                          <div class="header-images"><img src="images/Debrief.png"></div><br class="hidden-xs"> Debrief</a>
+                          <div class="header-images" onclick="debrief()"><img src="images/Debrief.png"></div><br class="hidden-xs"> Debrief</a>
                     </li>
                   </ul><!-- #nav-list -->
                 </div><!-- .collapse .navbar-collapse -->
@@ -56,7 +56,7 @@
           </nav><!-- #header-nav -->
         </header>
 
-      <div id="main-content" class="container">
+      <div id="main-content" class="container workshop">
           <div id="cards" class="row align-items-center">
               <a href="#"><div class="left-button"><img src="images/left.svg"></div></a>
           <div class="col-12 col-xs-6 col-sm-4 col-ml-3 col-lg-4"><div id="workshop">
@@ -66,10 +66,31 @@
           <div class="col-12 col-xs-12 col-sm-4 col-ml-6  col-lg-4">
               <p>Players might also talk about their connection to genocide more broadly. As long as what they are talking about aligns with the goal of this work- shop, it is appropriate. If a player diverges from these topics, gently bring them back to focus on the game.</p>
             </div>
-             <a href="#"><div class="right-button"><img src="images/right.svg"></div></a>
+             <a href="#"><div onclick="toPage(1);" class="right-button"><img src="images/right.svg"></div></a>
           </div>
-    </div>
+      </div>
 
+
+      <div id="main-content" class="container cards">
+          <div id="cards" class="row align-items-center">
+              <a href="#"><div class="left-button" name="1" onclick="change(this)">
+                <img src="images/left.svg">
+              </div></a>
+          <div class="col-12 col-xs-6 col-sm-4 col-ml-3 col-lg-4">
+            <div id="left" class="card-back"><img class="back" src="images/cards/l1.png"></div>
+              </div>
+          <div class="col-12 col-xs-6 col-sm-4 col-ml-3 col-lg-4">
+            <div id="card-front" class="card-front"><img class="front" src="images/cards/r1.png"></div>
+              </div>
+          <div class="col-12 col-xs-12 col-sm-4 col-ml-6  col-lg-4">
+              <div id="card-instr"><p class="instrp" id="instrp"></p></div><div id="card-explain"><p class="explainp" id="explainp">If needed, you can use this as a moment to remind the players about who will be playing with whom. The next four scenes will also reinforce those pairings.</p></div>
+              <div id="scrolldown" class="icon"><a><span></span></a></div>
+              </div>
+            <a href="#"><div class="right-button" name="2" onclick="change(this)">
+              <img src="images/right.svg">
+            </div></a>
+          </div>
+      </div>
 
      <footer>
          <div id="footer-content" class="box"><div id="footer" class="row align-items-center"> <div class="col-xs-4 col-sm-4 col-ml-4 col-lg-4">
