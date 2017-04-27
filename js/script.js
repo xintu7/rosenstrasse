@@ -81,4 +81,30 @@ function changeAll(cardIndex) {
   var next = index+1;
   $(".left-button").attr('name', prev);
   $(".right-button").attr('name', next);
+}
+
+function toPage(index) {
+
+  $(".workshop").hide();
+  $(".cards").show();
+
+  changeAll(index);
+  changeText(index);
+}
+
+function change(card) {
+  //Get the index of the new card you want to display
+  var cardIndex = card.getAttribute("name");
+  console.log(cardIndex);
+
+  //If this is the first or last card, make no change
+  if (cardIndex === "0") {
+    return;
+  } else if (cardIndex === "90") {
+    return;
+  }
+  
+  changeAll(cardIndex);
+  changeText(cardIndex);
 };
+
