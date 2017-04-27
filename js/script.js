@@ -38,7 +38,6 @@ $(window).ready(function(){
    //Get text from Json
 let newCardInstr = null;
 let newCardExplain = null;
-$.getJSON("https://api.myjson.com/bins/1hfaan", function (data) {
 $.getJSON("https://api.myjson.com/bins/136r2h", function (data) {
     newCardInstr = data.map(item => item.instr);
     newCardExplain = data.map(item => item.explain);
@@ -50,10 +49,6 @@ function changeText(cardIndex) {
     console.log('Changing explanation portion');
 }
 
-function change(card) {
-   
-  //Get the index of the new card you want to display
-  var cardIndex = card.getAttribute("name");
 //- changeAll(), to functions, change()
 //- Grace Guo
 //- 20 April 2017
@@ -70,10 +65,6 @@ function changeAll(cardIndex) {
   //Find the card front image element and change image src
   var cardFront = $(".front");
   cardFront.attr('src', newCardRight);
-    
-  $(".instrp").html(newCardInstr[cardIndex - 1]);  
-  $(".explainp").html(newCardExplain[cardIndex - 1]);  
-    console.log('Changing explanation portion');
 
   //Update the index of the left and right arrows
   var index = parseInt(cardIndex);
