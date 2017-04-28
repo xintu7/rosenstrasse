@@ -209,7 +209,7 @@ p {
 
 #scrolldown a span {
 	position: absolute;
-	bottom: 0;
+	bottom: -10px;
         left: 83%;
 	width: 12px;
 	height: 12px;
