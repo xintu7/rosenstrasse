@@ -92,7 +92,7 @@ function change(card) {
   if (cardIndex === "0") {
     return;
   } else if (cardIndex === "90") {
-    return;
+    window.location = "debrief.html";
   }
   
   changeAll(cardIndex);

@@ -23,9 +23,9 @@ a {
 
 a:hover {
     color:none;
-
     text-decoration: none;
 }
+
 
 
 div#logo-img {
@@ -136,22 +136,28 @@ div#main-mobile img{
     position: relative;
 }
 
+div#workshop {
+    padding: 0 30px 0 30px;
+}
+
 #cards {
     padding: auto;
 }
 
 .left-button {
-    width:2%;
-    position:absolute;
-    top: 0px;
-    left: -16px;
+    top:140px;
+    height:200px;
+    width:15px;
+    position:fixed;
+    left:3%;
 }
 
 .right-button {
-    width:2%;
-    position:absolute;
-    top: 0px;
-    right: -2%;
+    top:140px;
+    height:200px;
+    width:15px;
+    position:fixed;
+    right: 3%;
 }
 
 
@@ -180,11 +186,24 @@ h {
     font-size: 1.6rem;
 }
 
+h1 {
+    font-family: 'gill sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 p {
     font-family: 'gill sans', sans-serif;
     font-size: 1.4rem;
 }
 
+
+#assign img{
+    width:50%;
+    left: 0;
+    right: 0;
+    float: right;
+}
 
 /**scroll**/
 
@@ -279,41 +298,6 @@ a:hover text{
     bottom: 26px;
 }
 
-/********** Large devices only **********/
-
-@media (min-width: 993px)  { 
-    
-    h{
-        font-size: 1.7rem;
-    }
-    
-    p{
-        font-size: 1.7rem;
-    }
-    
-    .sm-header {
-        display: none;
-        }
-    
-    div#workshop{
-    min-height: 370px;
-}
-    
-    #card-explain {
-    overflow: scroll;
-    overflow-x: hidden;
-    height: 260px;
-    overflow-y: auto;
-}
-
-      /* Home Page */
-    #footer-logo img{
-        display: none;
-    }
-    div#mobile-img {
-        display: none;
-    } 
-}
 
 /********** Medium devices only **********/
 @media (min-width: 992px)  {
@@ -338,7 +322,7 @@ a:hover text{
     #card-explain {
     overflow: scroll;
     overflow-x: hidden;
-    height: 220px;
+    height: 450px;
     overflow-y: auto;
 }
 
@@ -349,6 +333,12 @@ a:hover text{
     div#mobile-img {
         display: none;
     }
+    
+    div#text {
+        max-height: 900px;
+    }
+    
+
 }
 
 /********** Small devices only **********/
@@ -425,21 +415,6 @@ a:hover text{
   .nav-line{
     display: none;
     }
-
-    .left-button {
-    width:2%;
-    position:absolute;
-    bottom:-60px;
-    left: 17px;
-    }
-    
-    .right-button {
-    width:2%;
-    position:absolute;
-    bottom:-60px;
-    right: 17px;
-    }
-    
     
     #card-instr {
     margin-top: 10px;
@@ -465,7 +440,7 @@ a:hover text{
     }
     
     #footer-logo img{
-        bottom:5px;
+        bottom:105px;
     }
     
 }
@@ -492,10 +467,6 @@ a:hover text{
     margin： auto;
     width: 45%;
 }
-    div#main-img {
-        display: none;
-    }
-    
     
     div#main-enter {
     margin: auto;
@@ -520,19 +491,17 @@ a:hover text{
     }
 
     .left-button {
-    width:2%;
-    position:absolute;
-    bottom:-50px;
-    left: 17px;
+        top:70px;
+  
     }
     
     .right-button {
-    width:2%;
-    position:absolute;
-    bottom:-50px;
-    right: 17px;
+        top:70px;
     }
     
+    #cards {
+       padding: 0 20px 0 20px; 
+    }
     
     #card-instr {
     margin-top: 10px;
