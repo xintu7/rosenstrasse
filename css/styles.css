@@ -131,9 +131,10 @@ div#main-mobile img{
     width: 14.2%;
 }
 
-
 .container {
     position: relative;
+    padding-left: 41px;
+    padding-right: 41px;
 }
 
 div#workshop {
